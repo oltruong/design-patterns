@@ -10,7 +10,7 @@ public class CopterFlyingBehavior
     public void fly()
     {
 
-        System.out.println( "J'utilise des hélices" );
+        System.out.println( "I'm using propellers!" );
     }
 
 }

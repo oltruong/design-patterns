@@ -6,7 +6,7 @@ public class NoFlyingBehavior
 
     public void fly()
     {
-        System.out.println( "je sais pas voler !!!" );
+        System.out.println( "I don't know how to fly!" );
 
     }
 

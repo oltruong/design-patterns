@@ -3,8 +3,9 @@
  */
 package fr.oltruong.pattern.observer;
 
-public interface IObserver {
+public interface IObserver
+{
 
-	void update();
-	
+    void update();
+
 }

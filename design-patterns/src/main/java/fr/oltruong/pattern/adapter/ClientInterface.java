@@ -3,10 +3,10 @@
  */
 package fr.oltruong.pattern.adapter;
 
-public interface ClientInterface {
+public interface ClientInterface
+{
 
-	
-	public void myAction();
-	
-	public double computeAction();
+    public void myAction();
+
+    public double computeAction();
 }

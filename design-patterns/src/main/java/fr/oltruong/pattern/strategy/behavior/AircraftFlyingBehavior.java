@@ -3,11 +3,14 @@
  */
 package fr.oltruong.pattern.strategy.behavior;
 
-public class AircraftFlyingBehavior implements FlyingBehavior {
+public class AircraftFlyingBehavior
+    implements FlyingBehavior
+{
 
-	public void fly() {
-		System.out.println("J'utilise des réacteurs");
-		
-	}
+    public void fly()
+    {
+        System.out.println( "I'm using reactors!" );
+
+    }
 
 }

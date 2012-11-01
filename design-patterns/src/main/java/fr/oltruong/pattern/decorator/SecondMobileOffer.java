@@ -3,16 +3,20 @@
  */
 package fr.oltruong.pattern.decorator;
 
-public class SecondMobileOffer extends MobileOffer {
+public class SecondMobileOffer
+    extends MobileOffer
+{
 
-	@Override
-	public double cost() {
-		return 2.2;
-	}
+    @Override
+    public double cost()
+    {
+        return 2.2;
+    }
 
-	@Override
-	public String getDescription() {
-		return "my second offer";
-	}
+    @Override
+    public String getDescription()
+    {
+        return "my second offer";
+    }
 
 }

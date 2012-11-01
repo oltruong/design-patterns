@@ -3,6 +3,7 @@
  */
 package fr.oltruong.pattern.adapter;
 
-public class ObjectToAdapt {
+public class ObjectToAdapt
+{
 
 }

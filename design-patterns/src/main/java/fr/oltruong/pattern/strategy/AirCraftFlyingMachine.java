@@ -5,11 +5,13 @@ package fr.oltruong.pattern.strategy;
 
 import fr.oltruong.pattern.strategy.behavior.AircraftFlyingBehavior;
 
+public class AirCraftFlyingMachine
+    extends FlyingMachine
+{
 
-public class AirCraftFlyingMachine extends FlyingMachine {
-
-	public AirCraftFlyingMachine(){
-		flyingBehavior = new AircraftFlyingBehavior();
-	}
+    public AirCraftFlyingMachine()
+    {
+        flyingBehavior = new AircraftFlyingBehavior();
+    }
 
 }

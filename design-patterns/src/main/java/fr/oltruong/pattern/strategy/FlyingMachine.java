@@ -5,20 +5,20 @@ package fr.oltruong.pattern.strategy;
 
 import fr.oltruong.pattern.strategy.behavior.FlyingBehavior;
 
-public abstract class FlyingMachine {
+public abstract class FlyingMachine
+{
 
-	protected FlyingBehavior flyingBehavior;
-	
-	
-	public void performFly() {
-	
-		flyingBehavior.fly();
-	}
+    protected FlyingBehavior flyingBehavior;
 
+    public void performFly()
+    {
 
-	public void setFlyingBehavior(FlyingBehavior flyingBehavior) {
-		this.flyingBehavior = flyingBehavior;
-	}
-	
-	
+        flyingBehavior.fly();
+    }
+
+    public void setFlyingBehavior( FlyingBehavior flyingBehavior )
+    {
+        this.flyingBehavior = flyingBehavior;
+    }
+
 }
