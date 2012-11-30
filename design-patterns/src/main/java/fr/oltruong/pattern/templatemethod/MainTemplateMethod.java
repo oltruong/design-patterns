@@ -6,7 +6,7 @@ package fr.oltruong.pattern.templatemethod;
  * 
  * @author oltruong
  */
-public class Main
+public class MainTemplateMethod
 {
 
     public static void main( String[] args )

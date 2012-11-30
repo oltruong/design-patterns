@@ -5,7 +5,7 @@ package fr.oltruong.pattern.proxy;
  * 
  * @author oltruong
  */
-public class Main
+public class MainProxy
 {
 
     /**
