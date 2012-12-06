@@ -8,9 +8,6 @@ package fr.oltruong.pattern.chainofresponsibility;
 public class MainChainOfResponsibility
 {
 
-    /**
-     * @param args
-     */
     public static void main( String[] args )
     {
         HelpDesk helpDesk2 = new Level2HelpDesk( 2 );
